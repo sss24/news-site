@@ -1,0 +1,17 @@
+.wrapper-mid {
+  background: #f4f3f9;
+}
+
+
+@media (min-width: 850px) {
+  .wrapper-mid {
+
+    &__center {
+      display: flex;
+      justify-content: center;
+      max-width: 1700px;
+      margin: 0 auto;
+      padding: 0 3.5rem;
+    }
+  }
+}

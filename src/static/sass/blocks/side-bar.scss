@@ -1,0 +1,31 @@
+.side-bar {
+  display: none;
+}
+
+
+@media (min-width: 850px) {
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+
+    padding: 8.5rem 0 0 5rem;
+
+    &__title {
+      color: #2d243f;;
+      font-family: 'Yanone Kaffeesatz', sans-serif;
+      font-size: 20px;
+      letter-spacing: 0.1rem;
+
+      border-bottom: 1px solid #5e5d62;
+      padding-bottom: 1.5rem;
+    }
+    &__item {
+      margin-bottom: 8.5rem;
+
+      &--tag {
+        order: 1;
+      }
+    }
+  }
+}

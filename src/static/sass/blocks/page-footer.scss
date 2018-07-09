@@ -1,0 +1,90 @@
+.page-footer {
+  background: #1d1c21;
+  color: #7b7a7f;
+  padding: 8.5rem 1rem 2.5rem 1rem;
+
+  display: flex;
+  flex-direction: column;
+
+  & p {
+    margin: 0;
+  }
+
+  &__title {
+    color: #f8f2f2;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid #5e5d62;
+    padding-bottom: 1.5rem;
+  }
+
+  &__item {
+    padding: 2.5rem 0 0 0;
+
+    &--left-block {
+      display: none;
+    }
+  }
+
+  &__bottom {
+    margin-top: 7rem;
+  }
+
+  &__copyright {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+
+@media (min-width: $table-width) {
+  .page-footer {
+
+    &__info {
+      display: flex;
+    }
+    &__item {
+
+      &--left-block {
+        display: block;
+        flex: 1;
+      }
+      &--mid-block {
+        flex: 2;
+        margin: 0 4rem 0 4rem;
+      }
+      &--right-block {
+        flex: 1;
+        padding: 2.5rem 0 1rem 0;
+      }
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .page-footer {
+
+    &__info {
+      display: flex;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 5rem;
+    }
+    &__item {
+
+      &--left-block {
+        display: block;
+        flex: 1;
+      }
+      &--mid-block {
+        flex: 2;
+        margin: 0 4rem 0 4rem;
+      }
+      &--right-block {
+        flex: 1;
+        padding: 2.5rem 0 1rem 0;
+      }
+    }
+  }
+}

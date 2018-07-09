@@ -1,0 +1,9 @@
+.logo {
+  margin-bottom: 20px;
+}
+
+@media (min-width: $table-width) {
+  .logo {
+    margin-bottom: 0;
+  }
+}

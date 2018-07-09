@@ -1,0 +1,19 @@
+.btn {
+  font-size: 1.8rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  padding: 14px 25px;
+  background: $button_color;
+  color: #fff;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: all .4s;
+
+  &:hover {
+    background: $button_color_hover;
+  }
+}

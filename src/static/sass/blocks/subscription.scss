@@ -1,0 +1,46 @@
+.subscription {
+
+  &__title {
+    color: #f8f2f2;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+
+    border-bottom: 1px solid #5e5d62;
+    padding-bottom: 1.5rem;
+
+    &--black {
+      color: #2d243f;
+    }
+  }
+
+  &__heading {
+    display: block;
+    padding: 15px 0;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  &__email {
+    background: transparent;
+    border: 1px solid #c6c5ca;
+    padding: 1rem;
+    outline: none;
+    color: white;
+    transition: .3s;
+
+    &--black {
+      color: #000;
+    }
+  }
+  &__email:focus {
+    border: 1px solid $button_color_hover;
+  }
+  &__button {
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700&subset=cyrillic');
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  min-width: 320px;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  font-style: normal;
+
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

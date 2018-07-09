@@ -1,0 +1,33 @@
+.tag {
+  z-index: 2;
+
+  &__item--side {
+    padding-top: 2rem;
+  }
+
+  &__link--mid {
+    position: absolute;
+    top:2rem;
+    left: 2rem;
+  }
+  &__text {
+    background: $button_color;
+    color: #fff;
+
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+
+    padding: 7px;
+    border-radius: 15%;
+
+    transition: all .4s;
+
+    &:hover {
+      background: $button_color_hover;
+    }
+  }
+}
+
+

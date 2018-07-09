@@ -1,0 +1,25 @@
+.nav-pagination {
+  background: #f4f3f9;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+
+  &__item {
+    color: #000;
+    font-size: 1.4rem;
+    padding: 1rem 1.5rem;
+    font-weight: 700;
+
+    &:hover {
+      color: $button_color_hover;
+    }
+
+    &--active {
+      background: $button_color_hover;
+      color: #fff;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+}

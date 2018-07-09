@@ -1,0 +1,10 @@
+.page-main {
+  box-sizing: border-box;
+  margin: 2.5rem 0 0 0;
+}
+
+@media (min-width: $table-width) {
+  .page-main {
+    margin: 0;
+  }
+}
